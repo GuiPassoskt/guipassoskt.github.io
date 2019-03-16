@@ -1,0 +1,45 @@
+.header_area .navbar .nav .nav-item .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+    font-weight: bold;
+}
+.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link{
+    font-weight: bold;
+}
+.banner_area .portfolio{
+    background: url(../img/portfolio/bg_portfolio.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-color: #854eee;
+    background-blend-mode: luminosity;
+}
+
+.banner_area .contato{
+    background: url(../img/bg_contato.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-color: #854eee;
+    background-blend-mode: luminosity;
+}
+
+.banner_area .servicos{
+    background: url(../img/services/services.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-color: #854eee;
+    background-blend-mode: luminosity;
+}
+
+.banner_area .sobre{
+    background: url(../img/sobre.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-color: #854eee;
+    background-blend-mode: luminosity;
+}
