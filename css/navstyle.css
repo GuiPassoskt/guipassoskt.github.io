@@ -43,3 +43,44 @@
     background-color: #854eee;
     background-blend-mode: luminosity;
 }
+
+
+/* Progress Bar */
+.progress {
+    height: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    margin-top: -3px;
+}
+.progress-bar {
+    border-radius: 4px;
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 11px;
+    line-height: 18px;
+    color: #955251;
+    text-align: right;
+    padding-right: 15px;
+    background-color: #c3d7d8;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Roboto Slab", sans-serif;
+}
+.storyText {
+    padding: 25px;
+}
+#sectionResume {
+    background: #f9f7f8;
+}
+.resTitle h4{
+    color:#fff;
+}
+.whiteTitle {
+    color: #727171 !important;
+}
+.text-left {
+    text-align: justify !important;
+}
