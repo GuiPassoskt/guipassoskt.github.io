@@ -1,0 +1,140 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+    }
+
+    header label {
+        cursor: pointer;
+        color: #2d3e50;
+        display: block;
+        font-size: 32px;
+        position: absolute;
+        right: -15px;
+        transform: translate(-20%, 25%);
+        z-index: 1;
+    }
+    
+    header input {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    header .sub-header {
+        background-color: #fff;
+        flex-direction: column;
+        order: 2;
+    }
+
+    header .sub-header ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    header .navbar {
+        background-color: #fff;
+        flex-direction: column;
+        position: relative;
+        order: 1;
+    }
+
+    header .navbar a .mobile {
+        display: block;
+    }
+
+    header .navbar a .desktop {
+        display: none;
+    }
+
+    header .navbar ul {
+        flex-direction: column;
+        flex-wrap: unset;
+        width: 100%;
+        padding: 15px;
+        display: none;
+    }
+
+    header .navbar ul li {
+        background: #F9F9F9;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header .navbar ul li a {
+        color: #2d3e50;
+    }
+
+    /* Content */
+
+    section#content .title {
+        font-size: 1.6rem;
+    }
+
+    section#content p {
+        font-size: 1rem;
+    }
+
+    section#content .row {
+        background: none;
+        height: auto;
+        padding: 15px;
+    }
+
+    section#content .row .box {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    section#content .row .box .text h3 {
+        text-align: center;
+    }
+
+    section#content .btn-actions {
+        flex-direction: column;
+    }
+
+    /* LINKS */
+
+    section#links .up .box h4 {
+        font-weight: bold;
+    }
+
+    section#links .cotainer .up .banner {
+        order: 5;
+        margin-top: 15px;
+    }
+
+    /* FOOTER */
+    footer .container 
+    .logo, 
+    .copyright, 
+    .social {
+        flex: 1 100px;
+    }
+
+    footer .container .logo {
+        order: 1;
+    }
+
+    footer .container .social {
+        order: 2;
+    }
+
+    footer .container .copyright {
+        order: 3;
+        text-align: center;
+    }
+
+    #toggle:checked + .sub-header ul, #toggle:checked + .navbar ul {
+        display: block;
+        width: 100%;
+        margin: 0;
+        transform: translateY(0%);
+        transition: all 500ms ease;
+    }
+
+}
