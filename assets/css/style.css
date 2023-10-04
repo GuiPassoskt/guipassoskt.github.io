@@ -181,10 +181,6 @@ nav.sticky ul li a {
   color: var(--color-main-tree);
 }
 
-.logo {
-  padding-top: 10px;
-}
-
 .sticky.logo {
   padding-top: 5%;
 }
@@ -1305,9 +1301,12 @@ main {
   }
 
   nav.sticky {
-    background: var(--color-main-one);
     padding: 20px;
     padding-right: 12%;
+  }
+
+  #bx-menu {
+    color: #fff;
   }
 
   .navbar.active .logo {
