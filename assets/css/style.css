@@ -1631,6 +1631,7 @@ main {
     background-image: url(../img/perfil.jpg);
     object-fit: cover;
     background-position: center;
+    background-size: cover;
   }
   /* CONTATO */
 
@@ -1644,6 +1645,15 @@ main {
 /* 550px
 ********************************* */
 @media (max-width: 550px) {
+  .home-left h1 {
+    padding-top: 10%;
+  }
+
+  .portfolio .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .container-footer {
     padding-bottom: 3%;
     padding-left: 3%;
@@ -1667,5 +1677,11 @@ main {
   .contato-info {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contato-info div {
+    width: 60%;
+    margin: 0 auto;
   }
 }
